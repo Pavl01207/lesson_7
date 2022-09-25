@@ -1,0 +1,99 @@
+@font-face {
+	font-family: "Futuristic";
+	src: url(../fonts/FuturisricBoldItalic.woff2) format("woff2"),
+		url(../fonts/FuturisricBoldItalic.woff) format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Futuristic";
+	src: url(../fonts/FuturisticRegularRegular.woff2) format("woff2"),
+		url(../fonts/FuturisticRegularRegular.woff) format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+
+body {
+	background: rgb(63, 94, 251);
+	background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(149, 43, 65, 1) 100%);
+}
+
+.title__container h1 {
+	font-family: "Futuristic", serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 72px;
+	color: #0F2F40;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+}
+
+[class$="__container"] {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+[class$="__container"] h1 {
+	margin: 50px;
+}
+
+[class$="__first"] p,
+[class$="__second"] p,
+[class$="__three"] p {
+	font-family: "Futuristic", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 32px;
+	color: rgba(66, 255, 214, 0.7);
+	text-indent: 30px;
+}
+
+[class$="__first"] a {
+	color: crimson;
+}
+
+[class="img"]>[class$="__first"] {
+	background: url(../img/neonhad.jpg) fixed top left/100% no-repeat;
+	border-radius: 10px;
+	margin: 0 20px 30px 20px;
+	box-shadow: 10px 10px 10px 1px rgba(66, 255, 214, 0.7);
+}
+
+[class$="__second"] p {
+	text-align: right;
+	color: rgba(255, 164, 26, 0.7);
+	background: url(../img/city.jpg) scroll center/736px 736px no-repeat;
+	box-shadow: 10px 10px 10px 1px rgba(255, 164, 26, 0.7);
+}
+
+[class$="__second"] {
+	width: 736px;
+	height: 320px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+[class$="__three"] {
+	min-width: 1200px;
+	min-height: 1200px;
+	margin: 0 20px 30px 20px;
+}
+
+[class$="__three"] {
+	background: url(../img/style.png) scroll left top/600px 600px no-repeat,
+		url(../img/stylesecond.png) scroll bottom right/600px 600px no-repeat,
+		url(../img/stylethree.jpg) scroll center/600px 600px no-repeat;
+
+}
+
+[class$="__three"]>p~p {
+	text-align: right;
+	padding-top: 280px;
+	color: rgba(255, 164, 26, 0.7);
+}

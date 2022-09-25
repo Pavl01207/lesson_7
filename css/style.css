@@ -1,0 +1,128 @@
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Black.woff2) format("woff2"),
+		url(../fonts/Lato-Black.woff) format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Bold.woff2) format("woff2"),
+		url(../fonts/Lato-Bold.woff) format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Regular.woff2) format("woff2"),
+		url(../fonts/Lato-Regular.woff) format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.title,
+.about,
+.subscribe {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+[class="title__container"] h1 {
+	font-family: "Lato", serif;
+	font-weight: 900;
+	font-size: 46px;
+	font-style: normal;
+	line-height: 60px;
+}
+
+.title__container {
+	margin: 20px 0 20px 0;
+}
+
+[class$="__img"] img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+[class$="__text"] h2,
+[class$="__container"] h2,
+[class^="push__"] a {
+	font-family: "Lato", serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.about__text h2~p,
+.about__list p,
+.about__list li {
+	font-family: "Lato", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.about__text h2+p {
+	margin: 20px 0 20px 0;
+}
+
+.about__text p~h2 {
+	margin: 20px 0 0 80px;
+}
+
+.about__text {
+	margin-bottom: 20px;
+}
+
+[class$="__list"] p {
+	margin-bottom: 20px;
+}
+
+[class$="__list"] li {
+	margin: 0 0 10px 80px;
+}
+
+.subscribe h2 {
+	font-family: "Lato", serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: right;
+	color: rgba(140, 7, 202, 0.89);
+}
+
+.subscribe {
+	background: rgb(63, 94, 251);
+	background: linear-gradient(90deg, rgba(63, 94, 251, 1) 2%, rgba(66, 97, 241, 1) 5%, rgba(71, 101, 224, 1) 13%, rgba(0, 204, 119, 1) 27%, rgba(78, 108, 199, 1) 62%, rgba(187, 222, 95, 1) 93%);
+}
+
+.subscribe__container img {
+	max-width: 100%;
+}
+
+.subscribe__container {
+	margin-bottom: 30px;
+}
+
+[class^="push__"] a {
+	color: blueviolet;
+	border: 2px solid blueviolet;
+	border-radius: 10px;
+	background-color: aqua;
+	text-transform: uppercase;
+	font-size: 26px;
+	box-shadow: 10px 10px 3px 2px blueviolet;
+
+}
+
+[class="push__container"] {
+	margin: 0 0 50px 100px;
+}
